@@ -43,3 +43,9 @@ $TCA['tx_inventory_domain_model_product'] = array (
         '0' => array('showitem' => 'name, description, quantity')
     )
 );
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+    $_EXTKEY,
+    'List',
+    'The Inventory List'
+);
